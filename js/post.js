@@ -28,7 +28,24 @@ editBtn.addEventListener('click', function() {
   
    
 //ading functionality to like button
+var likes=0;
 
+function likeFunction()
+{  
+  likes=likes+1;
+  likeBtn.innerHTML ='<i class="fa fa-thumbs-up"></i>' +" Liked!";
+  if(likes==1)
+    {
+        document.getElementById('likePara').innerHTML="1 person likes this!";
+
+    }
+    else
+    {
+        document.getElementById('likePara').innerHTML= likes + " people have liked this!";
+       
+
+    }
+}
 //adding functionality to comment button
 function commentFunction()
 {
