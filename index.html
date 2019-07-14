@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- all CSS for header is in this file -->
     <link href='css\header.css' rel='stylesheet' type='text/css'>
 
@@ -11,9 +13,6 @@
 
     <!--  all CSS for fonts is in this file -->
     <link href='css\font.css' rel='stylesheet' type='text/css'>
-
-
-
 </head>
 
 <body>
@@ -29,7 +28,7 @@
         </div>
         <div id="postButtons">
             <!--code for All Posts & Create Post button here -->
-            <a href="html\bloglist.html" target="_blank"><button class="postButtons">All Post</button></a>
+            <a href="html\bloglist.html" target="_blank"><button class="postButtons">All Posts</button></a>
             <a href="#modal3"><button class="postButtons">Create Post</button></a>
         </div>
     </div>
@@ -37,22 +36,22 @@
 
     <!--  code for Sign In modal here -->
     <div class="modal_container2" id="modal2">
-            <div class="modal2">
-                <a href="#" class="close">X</a>
-                <h2 id="modal_heading2">Welcome Back!</h2>
-                <form action="#">
-                    <label>Username</label>
-                    <input required type="text" placeholder="Enter Username">
-    
-                    <label>Password</label>
-                    <input required type="password" placeholder="Enter Password">
-    
-                    <button class="signBtn">Sign In</button>
-    
-                    <p id="nam">Not a member?<a href="#modal">Sign Up</a> </p>
-                </form>
-            </div>
+        <div class="modal2">
+            <a href="#" class="close">X</a>
+            <h2 id="modal_heading2">Welcome Back!</h2>
+            <form action="#">
+                <label>Username</label>
+                <input required type="text" placeholder="Enter Username">
+
+                <label>Password</label>
+                <input required type="password" placeholder="Enter Password">
+
+                <button class="signBtn">Sign In</button>
+
+                <p id="nam">Not a member?<a href="#modal">Sign Up</a> </p>
+            </form>
         </div>
+    </div>
 
 
 
@@ -61,48 +60,46 @@
 
     <!--  code for Sign Up modal here -->
     <div class="modal_container" id="modal">
-            <div class="modal">
-                <a href="#" class="close">X</a>
-                <h2 class="modal_heading">Get Started</h2>
-                <form action="#">
-                    <label>Full Name</label>
-                    <input required type="text" placeholder="Enter Full name">
-    
-                    <label>Username</label>
-                    <input required type="text" placeholder="Enter Username">
-    
-                    <label>Password</label>
-                    <input required type="password" placeholder="Enter Password">
-    
-                    <label>Confirm Password</label>
-                    <input required type="password" placeholder="Confirm Password">
-    
-                    <button class="signBtn">Sign Up</button>
-                </form>
-    
-            </div>
-    
+        <div class="modal">
+            <a href="#" class="close">X</a>
+            <h2 class="modal_heading">Get Started</h2>
+            <form action="#">
+                <label>Full Name</label>
+                <input required type="text" placeholder="Enter Full name">
+
+                <label>Username</label>
+                <input required type="text" placeholder="Enter Username">
+
+                <label>Password</label>
+                <input required type="password" placeholder="Enter Password">
+
+                <label>Confirm Password</label>
+                <input required type="password" placeholder="Confirm Password">
+
+                <button class="signBtn">Sign Up</button>
+            </form>
+
         </div>
 
-     <!--  code for Create Post modal -->
-     <div class="modal_container3" id="modal3">
-            <div class="modal3">
-                    <a href="#" class="close">X</a>
-                <h2 class="modal_heading3">Create Your Post</h2>
-                <form action="#">
-                        <label >Title : </label>
-                        <input type="text" class="titleInput" placeholder="Title Of Your Post">
-                         
-                        <label>Content : </label>
-                        <textarea name="content" id="createContent"  placeholder="Content For The Post"></textarea>
-                        <a href="#"><button class="createBtn">Create</button></a>
-    
-                </form>
-            </div>
-            
+    </div>
+
+    <!--  code for Create Post modal -->
+    <div class="modal_container3" id="modal3">
+        <div class="modal3">
+            <a href="#" class="close">X</a>
+            <h2 class="modal_heading3">Create Your Post</h2>
+            <form action="#">
+                <label>Title : </label>
+                <input type="text" class="titleInput" placeholder="Title Of Your Post">
+
+                <label>Content : </label>
+                <textarea name="content" id="createContent" placeholder="Content For The Post"></textarea>
+                <a href="#"><button class="createBtn">Create</button></a>
+
+            </form>
         </div>
 
-
+    </div>
 
 </body>
 
