@@ -1,0 +1,147 @@
+/*styling posts*/
+
+
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0 !important;
+    background-color: orange;
+    background-size: 2000% 2000%;
+}
+.allPostsContainer {
+    height: 100%;
+    width: 100%;
+
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+ }
+
+input{
+   width: 90%;
+   padding: 12px;
+   margin-left: 15px;
+   margin-bottom: 20px;
+   box-sizing: border-box;
+   border: 0px;
+   background: rgb(205, 225, 231);
+   
+}
+ label{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+/*style to sign in and sign up buttons*/
+ .modal_container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    background: rgba(222, 226, 226, 0.4);
+    pointer-events: none;
+ }
+ 
+ .modal_container:target{
+    opacity: 1;
+    pointer-events: auto;
+ }
+ 
+ .modal{
+   background: white;
+   position: absolute;
+   width: 350px;
+   height: 500px;
+   top: 0px;
+   bottom: 0px;
+   right: 0px;
+   left: 0px;
+   margin: auto;
+   
+}
+.modal_heading{
+   text-align: center;
+   display: block;
+   box-sizing: border-box;
+   border-bottom: 1px solid;
+   margin-bottom: 15px;
+}
+ 
+ .signBtn{
+   background: green;
+   color: white;
+   width: 90%;
+   padding: 12px;
+   margin: 10px;
+}
+ .close{
+    color: darkgray;
+    position: absolute;
+    text-decoration: none;
+    right: 10px;
+    top: 10px;
+ }
+ #nam{
+    text-align: center;
+    margin-bottom: 10px;
+ }
+ 
+ .modal_container2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    background: rgba(222, 226, 226, 0.4);
+    pointer-events: none;
+ }
+ .modal_container2:target{
+    opacity: 1;
+    pointer-events: auto;
+ }
+ 
+ .modal2{
+   background: white;
+   position: absolute;
+   width: 350px;
+   height: 370px;
+   top: 0px;
+   bottom: 0px;
+   right: 0px;
+   left: 0px;
+   margin: auto;
+}
+ 
+#modal_heading2{
+   padding: 5px;
+   text-align: center;
+   box-sizing: border-box;
+   display: block;
+   border-bottom: 1px solid;
+   margin-bottom: 20px;
+
+}  
+/*styling delete modal*/
+
+
+.fa{
+   float: right;
+   text-decoration: none;
+   color: black;
+   margin-top: 20px;
+}
+
+@media (max-width: 1000px)
+{
+   .post{
+     margin-left: 20px;
+      
+   }
+}

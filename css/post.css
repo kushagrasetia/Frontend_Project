@@ -1,0 +1,48 @@
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+ }
+ 
+ input{
+    width: 90%;
+    padding: 12px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 0px;
+    background: rgb(205, 225, 231);
+    
+ }
+ label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   margin-left: 15px;
+   margin-bottom: 5px;
+   font-size: 20px;
+ }
+
+ /* styling sign in and sign up buttons */
+                            
+ 
+/* styling blog posts */
+
+
+/* styling like button */
+
+
+
+
+/* styling edit button */
+
+.name{
+    margin-left: 50px;
+}
+
+/* styling comment section */
+
+
+
