@@ -63,4 +63,20 @@ label{
 
 
 /*styling create post modal*/
-
+#createContent{
+   width: 1000px;
+   height: 300px;
+   margin-left: 20px;
+}
+.createBtn{
+   
+      background: green;
+      color: white;
+      width: 200px;
+      padding: 12px;
+      margin: 10px;
+      text-decoration: none;
+      margin-left: 500px;
+      margin-top: 30px;
+  
+}
