@@ -6,27 +6,66 @@
     <link href='..\css\header.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="..\font-awesome-4.7.0/css/font-awesome.min.css">
     <link href='..\css\font.css' rel='stylesheet' type='text/css'>
-    <style>
-    </style>
+    
 </head>
 
 <body>
     <div class="header">
         <!--  code for Sign Up, Sign In button here. -->
-        
+        <a href="#modal"><button class="topButtons">Sign Up</button></a>
+        <a href="#modal2"><button class="topButtons">Sign In</button></a>
 
         <!-- code for "ScriBBler" heading and the sub-heading-->
-        
+        <a id="pageTitle" class="logo-title">ScriBBler</a>
+        <p class="middleText">Explore, Imagine, Create</p>
 
     </div>
 
     <!--  code for Sign In modal  -->
+    <div class="modal_container2" id="modal2">
+            <div class="modal2">
+                <a href="#" class="close">X</a>
+                <h2 id="modal_heading2">Welcome Back!</h2>
+                <form action="#">
+                    <label>Username</label>
+                    <input required type="text" placeholder="Enter Username">
     
+                    <label>Password</label>
+                    <input required type="password" placeholder="Enter Password">
+    
+                    <button class="signBtn">Sign In</button>
+    
+                    <p id="nam">Not a member?<a href="#modal">Sign Up</a> </p>
+                </form>
+            </div>
+        </div>
 
 
 
     <!--  code for Sign Up modal  -->
+    <div class="modal_container" id="modal">
+            <div class="modal">
+                <a href="#" class="close">X</a>
+                <h2 class="modal_heading">Get Started</h2>
+                <form action="#">
+                    <label>Full Name</label>
+                    <input required type="text" placeholder="Enter Full name">
     
+                    <label>Username</label>
+                    <input required type="text" placeholder="Enter Username">
+    
+                    <label>Password</label>
+                    <input required type="password" placeholder="Enter Password">
+    
+                    <label>Confirm Password</label>
+                    <input required type="password" placeholder="Confirm Password">
+    
+                    <button class="signBtn">Sign Up</button>
+                </form>
+    
+            </div>
+    
+        </div>
 
     <div class="blogContent">
         <div id="blogTitle">
